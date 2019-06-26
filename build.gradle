@@ -12,14 +12,6 @@ buildscript {
     }
 }
 
-assignments {
-    apiUrl = "https://dell-waveland.education.pivotal.io/"
-    emails = [
-            "joe.kearney@dell.com",
-    ]
-    cohortIdentifier = "pal-java-cnd-online-psapps"
-}
-
 plugins {
     id "java"
 }
