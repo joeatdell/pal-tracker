@@ -35,6 +35,8 @@ jobs:
       before_deploy:
         - echo "Deploying $RELEASE_TAG to Cloud Foundry"
       deploy:
+        on:
+          branch: lab3
         provider: cloudfoundry
         api: $CF_API_URL
         username: $CF_USERNAME
